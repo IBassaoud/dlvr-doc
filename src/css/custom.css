@@ -1,0 +1,90 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ab214d;
+  --ifm-color-primary-dark: #9a1e45;
+  --ifm-color-primary-darker: #911c41;
+  --ifm-color-primary-darkest: #781736;
+  --ifm-color-primary-light: #bc2455;
+  --ifm-color-primary-lighter: #c52659;
+  --ifm-color-primary-lightest: #d73267;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .carousel .control-dots .dot {
+  background: #000;
+}
+
+[data-theme='light'] .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  background: var(--ifm-color-primary) !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 40% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-theme='light'] .carousel.carousel-slider .control-arrow.control-next {
+  right: 7% !important;
+}
+[data-theme='light'] .carousel.carousel-slider .control-arrow.control-prev {
+  left: 7% !important;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #58a3fe;
+  --ifm-color-primary-dark: #3690fe;
+  --ifm-color-primary-darker: #2587fe;
+  --ifm-color-primary-darkest: #147efe;
+  --ifm-color-primary-light: #7ab6fe;
+  --ifm-color-primary-lighter: #8bbffe;
+  --ifm-color-primary-lightest: #bedbff;
+  --ifm-font-color-base-inverse: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  background: var(--ifm-color-primary) !important;
+  width: 50px;
+  height: 50px;
+  top: 40% !important;
+  right: 20% !important;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-theme='dark'] .carousel.carousel-slider .control-arrow.control-next {
+  right: 7% !important;
+}
+[data-theme='dark'] .carousel.carousel-slider .control-arrow.control-prev {
+  left: 7% !important;
+}
+
+[data-theme='light'] .carousel .control-arrow, 
+[data-theme='light'] .carousel.carousel-slider .control-arrow,
+[data-theme='dark'] .carousel .control-arrow, 
+[data-theme='dark'] .carousel.carousel-slider .control-arrow {
+  opacity: 0.4;
+}
+
+[data-theme='light'] .carousel .control-arrow:hover, 
+[data-theme='light'] .carousel.carousel-slider .control-arrow:hover,
+[data-theme='dark'] .carousel .control-arrow:hover, 
+[data-theme='dark'] .carousel.carousel-slider .control-arrow:hover {
+  opacity: 1;
+
+}
+.control-arrow-clicked {
+  opacity: 1 !important;
+}

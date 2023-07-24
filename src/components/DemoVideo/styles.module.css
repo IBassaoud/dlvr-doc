@@ -1,0 +1,87 @@
+.videoContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 10px;
+  background: linear-gradient(
+    145deg,
+    var(--ifm-color-primary),
+    var(--ifm-color-primary-lightest)
+  );
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.react-player {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playPauseButtonCenter {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: var(--ifm-color-primary);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 50%;
+}
+
+.bottomControls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.playPauseButton {
+  width: 22.5px;
+  height: 22.5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.timeline {
+  flex-grow: 1;
+  margin: 0 6px;
+  background: var(--ifm-color-primary);
+  cursor: pointer;
+  height: 3px;
+  border-radius: 5px;
+}
+
+.fullscreenButton {
+  border: none;
+  background: transparent;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  padding: 8px 16px;
+}

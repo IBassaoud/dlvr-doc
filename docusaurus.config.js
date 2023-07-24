@@ -1,11 +1,13 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+require('dotenv').config();
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const organizationName = "IBassaoud";
-const projectName = "dlvr-doc";
+const organizationName = process.env.ORGANIZATION_NAME;
+const projectName = process.env.PROJECT_NAME;
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -61,9 +63,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/dlvr-board.png',
       navbar: {
-        title: 'Dlivr Docs',
+        title: 'Dlivr',
         logo: {
           alt: 'Dlivr Logo',
           src: 'img/logo.svg',
@@ -73,7 +75,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

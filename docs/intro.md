@@ -2,46 +2,31 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction to Dlvr Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the **Dlvr Documentation**. This guide will help you understand and use the Dlvr SaaS product effectively.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+To get the most out of this documentation, you should have a basic understanding of the Dlvr SaaS product. If you're new to Dlvr, consider going through our [Getting Started Guide](getting-started/demo) first.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## What you'll need
 
-### What you'll need
+- A digit code to create a Dlvr board: You can get started with Dlvr by simply inputting a digit code.
+- Basic knowledge of how to navigate and use a SaaS product.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Navigating the Documentation
 
-## Generate a new site
+This documentation is divided into several sections to make it easy for you to find the information you need.
 
-Generate a new Docusaurus site using the **classic template**.
+- **Getting Started**: This section provides an overview of Dlvr and helps you get started with creating your first Dlvr board.
+- **User Guide**: Here, you'll find detailed instructions on how to use the various features of Dlvr.
+- **FAQs**: This section answers some of the most frequently asked questions about Dlvr.
 
-The classic template will automatically be added to your project after you run the command:
+## Contributing to the Documentation
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+We welcome contributions to our documentation. If you find any errors or areas that could be improved, please feel free to create an issue or a pull request on our [GitHub repository](https://github.com/IBassaoud/dlvr-doc).
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Feedback
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Your feedback is important to us. If you have any suggestions or comments about our documentation, please let us know.

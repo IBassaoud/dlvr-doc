@@ -63,7 +63,7 @@ const HomepageTestimonials = (): JSX.Element => {
         target.classList.add('control-arrow-clicked');
         setTimeout(() => {
           target.classList.remove('control-arrow-clicked');
-        }, 300); // adjust delay as needed
+        }, 300);
       });
     });
   }, []);

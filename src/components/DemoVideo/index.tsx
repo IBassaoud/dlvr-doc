@@ -10,14 +10,14 @@ type DemoVideoProps = {
   url: string;
 };
 
-const DemoVideo: React.FC<DemoVideoProps> = ({ url }) => {
+const DemoVideo = ({ url }: DemoVideoProps) => {
   const videoUrl = useBaseUrl(url);
-  const [playing, setPlaying] = useState(false);
-  const [showControls, setShowControls] = useState(true);
+  const [playing, setPlaying] = useState<boolean>(false);
+  const [showControls, setShowControls] = useState<boolean>(true);
   const [played, setPlayed] = useState(0);
-  const [seeking, setSeeking] = useState(false);
-  const [isFullscreen, setIsFullscreen] = useState(false);
-  const [mouseActivity, setMouseActivity] = useState(true);
+  const [seeking, setSeeking] = useState<boolean>(false);
+  const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
+  const [mouseActivity, setMouseActivity] = useState<boolean>(true);
 
   const playerRef = useRef(null);
   const controlsRef = useRef(null);

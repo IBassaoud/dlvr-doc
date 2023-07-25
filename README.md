@@ -1,41 +1,39 @@
-# Website
+# Dlvr
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![Dlvr Logo](./static/img/Dlvr.png)
 
-### Installation
+Dlvr is a modern, intuitive roadmap management tool. It's designed to help teams plan, track, and coordinate their projects effectively. With Dlvr, you can create and manage boards, months, sprints, and tickets, making it easier to visualize your project's progress and timelines.
 
-```
-$ yarn
-```
+![Dlvr Board](./static/img/dlvr-board.png)
 
-### Local Development
+## Installation
 
-```
-$ yarn start
-```
+To get started with Dlvr, you'll need to have Node.js and npm installed on your machine. You can check the necessary requirements [here](https://docusaurus.io/docs/installation#requirements). Once you have these prerequisites, you can install Dlvr by first cloning the repository:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+git clone https://github.com/IBassaoud/dlvr-doc.git
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Then navigate into the cloned repository:
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+cd dlvr-doc
 ```
 
-Not using SSH:
+And install the necessary dependencies:
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+npm install
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Running the Application
+
+To start the Dlvr application in your local development environment, run the following command:
+
+```bash
+npm start
+```
+
+Once you run the start command, it initiates a local development server and automatically opens up a browser window. The server is configured to reflect most changes live, eliminating the need for manual restarts.
+
+If everything is set up correctly (it always does 😊), the Dlvr website will be accessible at: [http://localhost:3000/dlvr-doc/](http://localhost:3000/dlvr-doc/)

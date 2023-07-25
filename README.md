@@ -37,3 +37,5 @@ npm start
 Once you run the start command, it initiates a local development server and automatically opens up a browser window. The server is configured to reflect most changes live, eliminating the need for manual restarts.
 
 If everything is set up correctly (it always does 😊), the Dlvr website will be accessible at: [http://localhost:3000/dlvr-doc/](http://localhost:3000/dlvr-doc/)
+
+Have fun !
